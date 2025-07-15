@@ -37,7 +37,7 @@ this.careers = [
     facultad: 'DESA ANALI SOFTWARE Y APLICACI',
     descripcion: 'Proyecto integrador usando componentes web con Lit.',
     imagen: 'https://tse1.explicit.bing.net/th/id/OIP.NZjVu6PfbE6OOLUQ0KLwTAHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3'
-  }
+  }     
 ];
 
   }
