@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>ESPE Careers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .form-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      width: 200px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #0059b3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #004080;
+    }
+
+    .container {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    career-card {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Carreras de la Universidad ESPE</h1>
+  <h2>Ingresa tu cédula</h2>
+
+  <div class="form-group">
+    <input type="text" id="cedulaInput" placeholder="2350442782" maxlength="10" />
+    <button id="submitCedula">Aplicar tema</button>
+  </div>
+
+  <div class="container">
+    <div>
+      <career-selector></career-selector>
+    </div>
+    <div>
+      <career-card></career-card>
+    </div>
+  </div>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
